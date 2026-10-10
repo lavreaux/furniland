@@ -155,12 +155,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`userID`, `username`, `email`, `password`, `gender`, `dob`, `role`) VALUES
 (1, 'George', 'admin.george@gmail.com', 'admin123', 'Male', '1990-01-01', 'Admin'),
-(2, 'steven', 'steven.gunawan010@gmail.com', 'password123', 'Male', '1995-05-15', 'Member'),
-(3, 'christopher devin', 'chris.dev@gmail.com', 'password123', 'Male', '1998-08-20', 'Member'),
-(4, 'joshua', 'joshua.kartadi@gmail.com', 'password123', 'Male', '2005-06-01', 'Member'),
-(5, 'Lavreaux', 'lavreaux@gmail.com', 'password123', 'Male', '2006-08-11', 'Member'),
-(6, 'Furina', 'furina.fontaine@gmail.com', 'password123', 'Female', '2006-10-13', 'Member'),
-(7, 'Arlecchino', 'arlecchino.fatui@gmail.com', 'password123', 'Female', '2003-08-22', 'Member');
+(2, 'Guest1', 'guest1@gmail.com', 'guest123', 'Male', '2000-01-01', 'Member');
 
 -- --------------------------------------------------------
 
